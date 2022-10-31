@@ -1,0 +1,19 @@
+.homeScreen > button {
+    color: black;
+    font-size: large;
+    text-align: right;
+    margin-top: 2px;
+    margin-left: 400px;
+    cursor: pointer;
+    
+}
+
+.homeScreen > h1 {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 500px;
+    
+    
+}
