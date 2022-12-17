@@ -22,15 +22,14 @@
     background-color: gray !important;
 }
 
-@media screen and (max-width: 540px) {
-    .plansScreen_plan > button {
-        padding: 4px 8px;
-        font-size: 0.6rem;
-    }
-}
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .plansScreen_plan {
         padding: 5px;
+    }
+
+    .plansScreen_plan > button {
+        padding: 4px 8px;
+        font-size: 0.8rem;
     }
 }

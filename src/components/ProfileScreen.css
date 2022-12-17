@@ -73,10 +73,21 @@
     .avatar_plans {
         display: none;
     }
+
+    .profileScreen_body {
+
+        width: 60%;
+        
+    }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .profileScreen_body {
         padding-top: 30%;
     }
+
+    .profileScreen_body {
+        width: 75%;
+    }
 }
+
