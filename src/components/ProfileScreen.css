@@ -17,8 +17,9 @@
     display: flex;
 }
 
-.profileScreen_info > img {
-    height: 100px;
+.avatar_plans > img {
+    width: 80px;
+
 }
 .profileScreen_info > h1 {
     font-size: 60px;
@@ -53,7 +54,29 @@
     cursor: pointer;
 }
 
+
 .profileScreen_plans > h3 {
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .profileScreen_body {
+        padding-top: 20%;
+    }
+
+    .profileScreen_details {
+        margin-left: 0;   
+    }
+
+    .avatar_plans {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .profileScreen_body {
+        padding-top: 30%;
+    }
 }

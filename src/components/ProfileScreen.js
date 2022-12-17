@@ -16,10 +16,12 @@ function ProfileScreen() {
         <div className='profileScreen_body'>
             <h1>Edit profile</h1>
             <div className='profileScreen_info'>
-                <img 
-                    src='https://static.wikia.nocookie.net/925fa2de-087e-47f4-8aed-4f5487f0a78c/scale-to-width/755' 
-                    alt=''
-                />
+                <div className='avatar_plans'>
+                    <img 
+                        src='https://static.wikia.nocookie.net/925fa2de-087e-47f4-8aed-4f5487f0a78c/scale-to-width/755' 
+                        alt=''
+                    />
+                </div>
                 <div className='profileScreen_details'>
                     <h2>{user.email}</h2>
                     <div className='profileScreen_plans'>
