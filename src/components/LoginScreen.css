@@ -1,6 +1,6 @@
 .loginScreen {
     position: relative;
-    height: 100%;
+    height: 100vh;
     background: url(https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg)
     center no-repeat;
     background-size:cover;
@@ -8,6 +8,7 @@
 
 .loginScreen__logo {
     position: fixed;
+    top: 20px;
     left: 0;
     width: 150px;
     object-fit: contain;
@@ -98,4 +99,22 @@
     border: none;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+    .loginScreen_body > h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .loginScreen_body > h3 {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-height: 675px) {
+    .loginScreen_body > h2 {
+        display: none;
+    }
+
 }

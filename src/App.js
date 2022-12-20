@@ -42,6 +42,7 @@ function App() {
 
   return (
     <div className="app">
+       <title>Netflix 2.0</title>
       
       <Router>
         {!user ? (
